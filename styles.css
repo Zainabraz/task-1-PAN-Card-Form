@@ -1,0 +1,50 @@
+body {
+    background-color: #ffffe0;
+}
+
+.formTitle {
+    background-color: #800000;
+    color: white;
+    text-align: center;
+    line-height: 5px;
+    padding: 5px 0px;
+    font-weight: 600;
+}
+
+table {
+    width: 100%;
+    margin-top: 10px;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.astRed {
+    color: red;
+}
+
+.labelBold{
+    display: inline;
+    font-weight: 600;
+}
+span.txtGreen{
+    color: #10880e;
+}
+.innerTbl{
+    width: 40%;
+    padding: 0px 0px !important;
+    margin: 0 !important;
+}
+.innerTbl,.innerTbl tr,.innerTbl td{
+    border: none;
+}
+.column{
+    width: 50%;
+}
+.row{
+    display: flex;
+}
